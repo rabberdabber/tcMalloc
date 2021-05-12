@@ -7,6 +7,7 @@
 
 # how to test the code
 gcc -o tc_malloc -pthread tc_malloc.c
+
 ./tc_malloc
 
 
