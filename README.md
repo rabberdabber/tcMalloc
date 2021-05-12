@@ -6,5 +6,8 @@
 - can be found in hw2.pdf file
 
 # how to test the code
-gcc -pthread tcmalloc.c 
+gcc -o tc_malloc -pthread tc_malloc.c
+./tc_malloc
+
+
 
